@@ -1,7 +1,7 @@
 
 // funzione 
 function firstLastName (firstName, lastName){
-    return { 'first name': firstName, 'last name': lastName }
+    return { nome: firstName, cognome: lastName }
 }
 
 module.exports = {firstLastName};
